@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+:root{
+
+ --cor-degrade1: #FC9B92;
+ --cor-degrade2:#F6847A;
+ --cor-degrade3:#E7756B;
+ --cor-degrade4:#D06156;
+ --cor-degrade5:#A84033;
+
+}
+
+background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
