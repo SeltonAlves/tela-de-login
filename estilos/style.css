@@ -27,6 +27,8 @@ section#login{
     height: 500px;
     width: 250px;
     border-radius:20px;
+    transition: width .4s ,heigth .4s ;
+    transition-timing-function: ease;
 }
 div#foto{
     display: block;
