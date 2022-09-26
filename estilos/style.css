@@ -50,9 +50,26 @@ div#formulario > p{
 }
 div.campo{
     height: 40px;
-    background-color: rgba(211, 211, 211, 0.9);
-    border-radius: 5px;
+    background-color:#BF4F45;
+    border: 1px solid #BF4F45;
+    border-radius: 8px;
     margin: 5px 0;
+}
+div.campo > i {
+    width: 40px;
+    font-size:32px;
+    padding: 5px;
+}
+div.campo > input{
+    height: 100%;
+    width: calc(100% - 45px);
+    background-color: lightgray;
+    font-size: 16px;
+    border: none; 
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+
 }
 form > input[type=submit]{
     display: block;
